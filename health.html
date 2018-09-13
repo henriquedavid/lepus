@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Health - Henrique David</title>
+    <link rel="stylesheet" type="text/css" href="css/health.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="script/animation.js"></script>
+    <script src="script/animation_logo_henrique.js"></script>
+
+</head>
+
+<body>
+
+    <div class="body">
+
+    <div id="header">
+        <a href="index.html"><p id="header_logo">HENRIQUE DAVID</p></a>
+    </div>
+
+    <div id="app_img">
+        <div id="cabecalho_front">
+            <div id="cabecalho_back">
+                <!--<img src="img/health/health_logo_white.png" id="health-logo">-->
+                
+                <div id="lottie"> </div>
+                <p>Sua saúde em primeiro lugar!</p>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div id="corpo_out">
+        <div id="corpo">
+            <div id="text_aux">
+                <h3>O que é?</h3>
+                <p>O Health é um projeto com a proposta de melhorar o acesso a informações médicas de pacientes. Auxiliando
+                    em tratamentos.
+                </p>
+            </div>
+
+            <div id="text_aux">
+                <h3>Como funciona?</h3>
+                <p>O paciente armazena todas as vacinas do cartão de vacinação no sistema, de forma simples e prática.
+                    Não perca tempo procurando no papel o que pode estar no seu bolso.
+                </p>
+            </div>
+
+            <div id="text_aux_3">
+                <h3>Baixe gratuitamente na Google Play</h3>
+                <a href="https://play.google.com/store/apps/details?id=com.malloc.health"><img src="img/counter/google-play-badge.png"
+                        id="img_google_play"></a>
+            </div>
+
+            <div id="termos">
+                <img src="img/icons/mail.png" id="mail">
+                <h3>Contato</h3>
+                <p>Todos os contatos devem ser realizados pelo e-mail henriquemed101@gmail.com.<br/> Ao procurar o suporte
+                    sempre procure detalhar o problema/sugestão.<br/> O e-mail também está disponível na página do aplicativo.
+                </p>
+
+                <img src="img/icons/eye.png" id="eye">
+                <h3>Privacidade</h3>
+                <p>Nós acreditamos que os dados que nossos usuários inserem devem ser armazenados com total sigilo e respeito.
+                    Ao utilizar o Health nenhum dado inserido poderá ser visto por terceiros. Apenas os usuários que utilizarem
+                    o aplicativo poderá consultar os próprios dados.<br/> As únicas informações que podem ser consultadas
+                    para contato podem ser o nome de usuário, nome e e-mail, as quais podem ser tornadas públicas ao criar
+                    a conta no sistema. Todas as outras informações são privadas.<br/><br/>
+                    <b>Como faço para outra pessoa ver meus exames?</b><br/><br/> No momento a única forma de acesso de outros
+                    usuários, ou terceiros, acessarem informações são com o nome de usuário e a senha do usuários que desejarem.
+                    Portanto, procure sempre modificar a senha e garantir que ninguém possua acesso a conta, qualquer outra
+                    mudança na conta contate o suporte do aplicativo.
+                </p>
+
+                <img src="img/icons/padlock.png" id="padlock">
+                <h3>Segurança</h3>
+                <p>Todas as contas do Health trabalham apenas com um nome de usuário, portanto não é possível que mais mais
+                    de uma pessoa possua o mesmo nome de usuários. Cada nome de usuário tem associado uma senha intransferível,
+                    na qual é do dever do usuário lembrar e não revelar a ninguém a senha. Caso terceiros tenham acesso a
+                    conta entre em contato com o suporte do aplicativo. Procure sempre modificar a senha para manter as informações
+                    em segurança.
+                </p>
+
+                <h3>Dúvidas</h3>
+
+                <h2>Por que não aparece outras opções além de vacina?</h2>
+                <p>As versões anteriores as 0.1.1.2 permitia ao usuário armazenar exames, diagnósticos, remédios
+                    e o cartão de vacinação, então por que tiramos? <br />
+                    Estamos reorganizando a plataforma para permitir ao usuário uma interface mais limpa e organizada. Então 
+                    não se preocupe, em breve todas as opções irão voltar à plataforma.<br />
+                    Não era a sua dúvida? Já era usuário? Cheque a notícia abaixo para antigos usuários.
+                </p>
+
+                <h2>Antigos Usuários (Versão < 0.1.1.2)</h2>
+                <p>Os usuários que já utilizavam o app para armazenamento de exames, diagnósticos, remédios e vacinas
+                    não precisam se preocupar. O app está sendo redesenhado para oferecer um serviço completo para você,
+                    caso deseje obter os dados armazenados basta entrar em contato conosco.<br />
+                    E-mail: henriquemed101@gmail.com<br/>
+                    Todos os dados continuam na plataforma, então não precisa se preocupar caso tenha jogado algo no lixo.
+                    O aplicativo está aqui para te ajudar.
+                </p>
+
+                <h2>Esqueci a senha, deseja mudar, ou cancelar a conta?</h2>
+                <p>Para mudança de senhas e cancelamentos basta entrar em contato pelo email: henriquemed101@gmail.com</p>
+                
+            </div>
+
+        </div>
+    </div>
+</div>
+    <div class="bottom">
+            <!--<a href="index.html"><div id="lottie_h"></div></a>-->
+        <p>Copyright © 2016-2018 HEALTH - Henrique's Project. Todos os direitos reservados.</p>
+    </div>
+
+    <script>
+        
+        var params_1 = {
+            container: document.getElementById('lottie'),
+            renderer: 'svg',
+            loop: false,
+            autoplay: true,
+            animationData: animationData
+        };
+
+        var anim;
+
+        anim = lottie.loadAnimation(params_1);
+
+
+        var params_logo = {
+            container: document.getElementById('lottie_h'),
+            renderer: 'svg',
+            loop: false,
+            autoplay: true,
+            animationData: animationData_logo
+        };
+
+        var anim_logo;
+
+        anim_logo = lottie.loadAnimation(params_logo);
+    </script>
+
+</body>
+
+</html>

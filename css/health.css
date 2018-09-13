@@ -1,0 +1,165 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #3e0004;
+    /*background-color: rgba(0,0,0,0.9);*/
+}
+
+h1{
+    font-size: 70px;
+}
+
+
+#header a{
+    text-decoration: none;
+}
+
+#header a:link{
+    color:#ffffff;
+}
+
+#header_logo{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+#lottie{
+    margin: 0 auto;
+    width:170px;
+    height:170px;
+    color: #000;
+}
+
+#lottie_h{
+    margin: 0 auto;
+    width:170px;
+    height:170px;
+    color: #000;
+}
+
+#logo{
+    height: 300px;
+}
+
+#health-logo{
+    height: 170px;
+    width: 170px;
+}
+
+a:link{
+    color: #BDBDBD;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #BDBDBD;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #BDBDBD;
+    text-decoration: underline;
+}
+
+a:active{
+    text-decoration: underline;
+}
+
+#home-a:hover{
+    text-decoration: none;
+}
+
+#app_img{
+    height: 900px;
+    background-image: url("../img/health/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 20px;
+}
+
+#corpo_out{
+    background-color: #ffffff;
+}
+
+#corpo{
+    margin: 0 auto;
+    width: 1000px;
+    padding: 20px;
+}
+
+
+#cabecalho_front{
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+#cabecalho_back{
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+    width: 1000px;
+    font-size: 17px;
+}
+
+#text_aux, #text_aux_3{
+    padding: 50px;
+}
+
+#text_aux{
+    width: 400px;
+    float: left;
+}
+
+#text_aux_3{
+    text-align: center;
+}
+
+#img_google_play{
+    width: 170px;
+    padding-top: 0px;
+    float: center;
+}
+
+h3{
+    font-weight: 800;
+    font-size: 30px;
+    color: #D50000;
+}
+
+#termos{
+    text-align: center;
+    padding: 20px;
+}
+
+#mail{
+    width: 100px;
+}
+
+#eye{
+    width: 100px;
+    padding-top: 40px;
+}
+
+#padlock{
+    width: 100px;
+    padding-top: 40px;
+}
+
+.bottom{
+    background-color: #444;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+@media only screen and (max-device-with:1366px){
+    #app_img{
+        background-attachment: scroll;
+    }
+}
